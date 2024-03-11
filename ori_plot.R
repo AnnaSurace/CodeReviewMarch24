@@ -8,6 +8,7 @@ library(dplyr)
 library(tidyr)
 library(purrr)
 library(stringr)
+library(ggplot2)
 
 trees <- readRDS("./fake_treedata.rds")
 #function to filter for only trees with >= 1 synovium + Week16 clone
